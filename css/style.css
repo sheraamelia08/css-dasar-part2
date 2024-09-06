@@ -10,7 +10,7 @@
      justify-content: center;
      align-items: center;
      height: 100vh;
-     background-color: #719ad6;
+     background-color: #f0f2f5;
  }
 
  .login-container {
@@ -25,8 +25,14 @@
  h1 {
      font-size: 24px;
      margin-bottom: 10px;
-     text-align: center;
  }
+
+ p {
+     font-size: 14px;
+     color: #555;
+     margin-bottom: 30px;
+ }
+
  .form-group {
      margin-bottom: 20px;
      position: relative;
@@ -37,7 +43,7 @@
      padding: 12px;
      padding-left: 40px;
      font-size: 14px;
-     border: 1px solid #c70f0f;
+     border: 1px solid #ccc;
      border-radius: 8px;
      background-color: #f9f9f9;
  }
@@ -53,12 +59,11 @@
 
  .forgot-password {
      display: block;
-     text-align: ce;
+     text-align: right;
      font-size: 12px;
      color: #007bff;
      margin-bottom: 20px;
      text-decoration: none;
-     text-align: center;
  }
 
  .forgot-password:hover {
@@ -112,7 +117,7 @@
      justify-content: center;
      padding: 12px;
      font-size: 14px;
-     border: 1px solid #e71313;
+     border: 1px solid #ccc;
      border-radius: 8px;
      background-color: #fff;
      cursor: pointer;
@@ -138,4 +143,3 @@
  .signup-link a:hover {
      text-decoration: underline;
  }
- 
